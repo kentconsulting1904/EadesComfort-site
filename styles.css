@@ -157,3 +157,29 @@ footer { text-align: center; padding: 1.5rem; font-size: 0.9rem; color: #666; }
   nav a { display: inline-block; margin: 0.25rem 0.5rem 0; }
   .hero h1 { font-size: 1.6rem; }
 }
+.photo-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.photo-grid figure {
+  margin: 0;
+  background: #fafafa;
+  border-radius: 6px;
+  overflow: hidden;
+  border: 1px solid #e0e0e0;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+}
+
+.photo-grid img {
+  width: 100%;
+  display: block;
+}
+
+.photo-grid figcaption {
+  padding: 0.5rem 0.75rem 0.75rem;
+  font-size: 0.9rem;
+  color: #444;
+}
