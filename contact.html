@@ -2,48 +2,94 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Contact – Eades Plumbing and Heating</title>
+  <title>Contact | Eades Plumbing and Heating</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Contact Eades plumbing and Heating for all your HVAC and plumbing service in Statesville, NC.">
+  <meta name="description" content="Contact Eades Plumbing and Heating for HVAC, plumbing, crawlspace, and new construction services in Statesville, NC.">
+  <meta name="robots" content="index,follow">
+  <link rel="canonical" href="https://www.eadesplumbingandheating.com/contact.html">
   <link rel="stylesheet" href="styles.css">
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "HVACBusiness",
+  "name": "Eades Plumbing and Heating",
+  "image": "https://www.eadesplumbingandheating.com/rheem-eades-logo.png",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "",
+    "addressLocality": "Statesville",
+    "addressRegion": "NC",
+    "postalCode": "",
+    "addressCountry": "US"
+  },
+  "url": "https://www.eadesplumbingandheating.com",
+  "telephone": "(704) 902-0376",
+  "priceRange": "$$",
+  "areaServed": {
+    "@type": "Place",
+    "name": "Statesville, Troutman, Harmony, Union Grove, Mooresville (North), Iredell County"
+  },
+  "openingHours": "Mo-Fr 08:00-18:00",
+  "brand": {
+    "@type": "Brand",
+    "name": "Rheem"
+  }
+}
+</script>
 </head>
 <body>
 <header>
   <div class="header-inner">
     <span class="logo">Eades Plumbing and Heating</span>
     <nav>
-      <a href="index.html">Home</a>
-      <a href="services.html">Services</a>
-      <a href="about.html">About</a>
-      <a href="service-area.html">Service Area</a>
-      <a href="testimonials.html">Testimonials</a>
+      <a href="index.html" class="">Home</a>
+      <a href="services.html" class="">Services</a>
+      <a href="about.html" class="">About</a>
+      <a href="service-area.html" class="">Service Area</a>
+      <a href="testimonials.html" class="">Testimonials</a>
       <a href="contact.html" class="active">Contact</a>
     </nav>
   </div>
 </header>
-
 <main>
   <section class="page-section">
-    <h1 class="page-title">Contact Eades Plumbing and Heating</h1>
-    <p>Have a question, need a repair, or want a quote for a new system? We’re here to help.</p>
+    <h1 class="page-title">Contact</h1>
+    <p>Need service or have a question? Call or message us and we’ll get back to you as soon as possible.</p>
 
-    <h2>Contact Information</h2>
-    <p><strong>Phone:</strong> <a href="tel:1XXXXXXXXXX">(704) 902-0376</a></p>
-    <p><strong>Email:</strong> <a href="mailto:EadesPlgHtg@gmail.com">info@EadesComfort.com</a></p>
+    <div class="contact-grid">
+      <div class="card">
+        <h2>Call</h2>
+        <p><a href="tel:17049020376">(704) 902-0376</a></p>
+      </div>
+      <div class="card">
+        <h2>Service Area</h2>
+        <p>Statesville, NC and surrounding communities.</p>
+        <p><a href="service-area.html">View full service area</a></p>
+      </div>
+      <div class="card">
+        <h2>Request Service</h2>
+        <p>Send us a message and we’ll respond quickly.</p>
+      </div>
+    </div>
 
-    <p><strong>Hours:</strong><br>
-      Mon–Fri: 8:00 am – 5:00 pm<br>
-      Sat: Closed<br>
-      Sun: Closed
-    </p>
-
-    <h2>Request Service</h2>
-    <p>For fastest service, please call us. You can also email us with your name, address, and a brief description of the issue, and we’ll get back to you as soon as possible.</p>
-
-    <!-- If you later want a real form, it can be added here using a service like Formspree or Netlify Forms. -->
+    <form class="contact-form" action="#" method="post">
+      <label>Name
+        <input type="text" name="name" placeholder="Your name">
+      </label>
+      <label>Phone
+        <input type="tel" name="phone" placeholder="(###) ###-####">
+      </label>
+      <label>Email
+        <input type="email" name="email" placeholder="you@example.com">
+      </label>
+      <label>How can we help?
+        <textarea name="message" rows="5" placeholder="Tell us what you need…"></textarea>
+      </label>
+      <button type="submit" class="btn btn-primary">Send Message</button>
+      <p class="small-note">Form is static on GitHub Pages. If you want it to send emails, use a service like Formspree or Netlify Forms.</p>
+    </form>
   </section>
 </main>
-
 <footer>
   &copy; <span id="year"></span> Eades Plumbing and Heating – HVAC &amp; Plumbing in Statesville, NC. All rights reserved.
 </footer>
